@@ -1,5 +1,11 @@
 .card {
-  border: 2px solid green;
+  /* border: 2px solid green; */
+  width: 100%;
+}
+
+.dash {
+  display: flex;
+  align-items: center;
 }
 
 .dash-board-card {
@@ -7,11 +13,15 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 2rem;
+  padding: 2rem 2rem 8rem 2rem;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .dash-board p {
   margin-top: 0.7rem;
+  color: hsl(224, 21%, 14%);
+  opacity: 0.7;
 }
 
 .dash-line {
@@ -19,4 +29,122 @@
   width: 100%;
   background-color: hsl(228, 12%, 44%);
   margin-top: 1rem;
+}
+
+/* Check-box */
+
+.dash-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.check-box-p p {
+  color: #464444;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background: linear-gradient(210deg, hsl(210, 63%, 46%), hsl(146, 52%, 49%));
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Face book styles */
+.fb-card-content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.icons-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.icons-wrap p {
+  opacity: 0.4;
+  font-size: 14px;
+  align-self: center;
+}
+
+.fol {
+  margin-top: 1rem;
+}
+
+.fol h1 {
+  font-size: 4.4rem;
+  letter-spacing: 4px;
+}
+
+.fol p {
+  letter-spacing: 5px;
+  opacity: 0.4;
+  font-size: 15px;
+}
+
+.arrow-div {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+  margin-top: 1.3rem;
+  /* background-image: url("../../assets/images/icon-up.svg");
+  background-repeat: no-repeat;
+  background-size: 70px; */
+}
+
+.green-arrw {
+  width: 14px;
+  object-fit: contain;
 }
