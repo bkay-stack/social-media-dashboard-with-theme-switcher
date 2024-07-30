@@ -99,11 +99,15 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/* Face book styles */
-.fb-card-content {
+/* card-items styles */
+.card-items {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: hsl(228, 31%, 90%);
+  border-radius: 5px;
 }
 
 .icons-wrap {
@@ -139,12 +143,100 @@ input:checked + .slider:before {
   gap: 0.4rem;
   margin-top: 1.5rem;
   margin-top: 1.3rem;
-  /* background-image: url("../../assets/images/icon-up.svg");
-  background-repeat: no-repeat;
-  background-size: 70px; */
+  color: hsl(163, 72%, 41%);
+  font-size: 16px;
+}
+
+.red-span {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+  margin-top: 1.3rem;
+  color: hsl(356, 69%, 56%);
+  font-size: 16px;
+}
+/* Red span */
+.red-arrw {
+  width: 14px;
+  object-fit: contain;
 }
 
 .green-arrw {
   width: 14px;
   object-fit: contain;
+}
+
+/* card styling */
+
+/* Face book card */
+.fb-card-content {
+  border-top: 5px solid hsl(208, 92%, 53%);
+}
+
+/* Twitter card */
+.tw-card-content {
+  border-top: 5px solid hsl(203, 89%, 53%);
+}
+
+.ig-card-content {
+  border-top: 3px solid (to right, #f1f5f7, #d80b77) 1 0 0 0;
+}
+
+.youtube-card-content {
+  border-top: 5px solid hsl(348, 97%, 39%);
+}
+
+/* Card 2 */
+
+.card-content-2 {
+  text-align: left;
+}
+
+.card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: hsl(228, 31%, 90%);
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  text-align: left;
+  gap: 1.5rem;
+}
+
+.content-wrap span {
+  font-size: 14px;
+  color: hsl(228, 15%, 33%);
+}
+
+.content-wrap-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 1.5rem;
+}
+
+.icon-2 {
+  display: flex;
+  gap: 0.5rem;
+  color: hsl(163, 72%, 41%);
+  font-size: 12px;
+}
+
+.small-icon {
+  width: 10px;
+  object-fit: contain;
+}
+
+/* Wide screen */
+
+@media (min-width: 500px) {
 }
