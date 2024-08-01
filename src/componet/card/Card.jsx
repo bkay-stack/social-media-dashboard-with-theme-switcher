@@ -66,7 +66,7 @@ const Card = () => {
           </div>
           <div className="arrow-div">
             <img src={arrowImg} className="green-arrw" alt="" />
-            <span>12 Today</span>
+            <span>99 Today</span>
           </div>
         </div>
         {/* IG card */}
@@ -81,23 +81,23 @@ const Card = () => {
           </div>
           <div className="arrow-div">
             <img src={arrowImg} className="green-arrw" alt="" />
-            <span>12 Today</span>
+            <span>1099 Today</span>
           </div>
         </div>
 
         {/* Youtube card */}
-        <div className="ig-card-content card-items">
+        <div className="youtube-card-content card-items">
           <div className="icons-wrap">
             <img src={youtubeImg} alt="" />
             <p>@Nathanf</p>
           </div>
           <div className="fol">
-            <h1>11k</h1>
+            <h1>8239</h1>
             <p>FOLLOWERS</p>
           </div>
-          <div className="arrow-div">
-            <img src={arrowImg} className="green-arrw" alt="" />
-            <span>12 Today</span>
+          <div className="arrow-down-div">
+            <img src={arrdownImg} className="green-arrw" alt="" />
+            <span>144 Today</span>
           </div>
         </div>
       </div>
