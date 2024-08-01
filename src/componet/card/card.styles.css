@@ -1,0 +1,149 @@
+.dashboard-theme-switch {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 2rem 2rem 7rem 2rem;
+}
+
+.dash-line {
+  background-color: hsl(228, 25%, 45%);
+  height: 1px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.dash-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.check-box-p p {
+  color: #464444;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background: linear-gradient(210deg, hsl(210, 63%, 46%), hsl(146, 52%, 49%));
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Card item */
+
+.card-item {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* padding: 1rem; */
+}
+
+.card-items {
+  background-color: hsl(225, 100%, 98%);
+  padding: 2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.icons-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.icons-wrap p {
+  font-size: 13px;
+}
+
+.fol,
+.arrow-div {
+  margin-top: 1.3rem;
+}
+
+.fol h1 {
+  font-size: 60px;
+}
+
+.fol p {
+  font-size: 13px;
+  letter-spacing: 0.3rem;
+  color: hsl(232, 19%, 15%);
+  opacity: 0.4;
+}
+
+.arrow-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(163, 72%, 41%);
+  font-size: 15px;
+}
+
+.fb-card-content {
+  border-top: 5px solid hsl(208, 92%, 53%);
+}
+
+@media (min-width: 590px) {
+  .dashboard-theme-switch {
+    flex-direction: inherit;
+    justify-content: space-between;
+  }
+  .dash-line {
+    display: none;
+  }
+}
