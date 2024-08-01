@@ -1,11 +1,11 @@
-import Card1 from "./componet/card/Card1";
-
 // import "./App.css";
+
+import Card from "./componet/card/Card";
 
 function App() {
   return (
     <div className="Card">
-      <Card1 />
+      <Card />
     </div>
   );
 }
