@@ -157,12 +157,19 @@ input:checked + .slider:before {
   border-top: 5px solid hsl(348, 97%, 39%);
 }
 
-@media (min-width: 590px) {
+@media (min-width: 690px) {
   .dashboard-theme-switch {
     flex-direction: inherit;
     justify-content: space-between;
   }
   .dash-line {
     display: none;
+  }
+
+  .card-item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
   }
 }
