@@ -4,6 +4,7 @@
   flex-direction: column;
   /* align-items: center; */
   padding: 2rem 2rem 7rem 2rem;
+  width: 100%;
 }
 
 .dash-line {
@@ -167,9 +168,13 @@ input:checked + .slider:before {
   }
 
   .card-item {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     gap: 1rem;
     /* flex-wrap: wrap; */
+  }
+
+  .card-content-1 {
+    /* outline: 1px solid red; */
   }
 }

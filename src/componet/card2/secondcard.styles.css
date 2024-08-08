@@ -1,0 +1,60 @@
+.card-content-2 {
+  padding: 2rem;
+}
+
+.card-header {
+  color: hsl(228, 12%, 44%);
+}
+
+.cards {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+
+  /* flex-direction: column; */
+}
+
+.card-inter {
+  display: flex;
+  gap: 55px;
+  flex-direction: column;
+  text-align: left;
+}
+
+.card-inter h3 {
+  font-size: 40px;
+}
+
+.card-inter span {
+  color: hsl(229, 9%, 47%);
+}
+
+.icon-wrap {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapp-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons span {
+  color: hsl(163, 72%, 41%);
+  font-size: 14px;
+}
+
+@media (min-width: 650px) {
+}

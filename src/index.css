@@ -23,6 +23,11 @@ body {
   height: 100vh;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 image {
   display: block;
   max-width: 100%;
