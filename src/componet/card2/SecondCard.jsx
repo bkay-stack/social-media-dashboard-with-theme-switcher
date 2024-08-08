@@ -18,7 +18,7 @@ const SecondCard = () => {
             <span>Page Views</span>
             <h3>87</h3>
           </div>
-          <div className="card-inter">
+          <div className="card-center">
             <div className="icons">
               <img src={fbImg} alt="" />
             </div>
@@ -33,13 +33,13 @@ const SecondCard = () => {
             <span>Likes</span>
             <h3>52</h3>
           </div>
-          <div className="card-inter">
+          <div className="card-center">
             <div className="icons">
               <img src={fbImg} alt="" />
             </div>
-            <div className="icons-note icon-red">
-              <img src={arrdownImg} alt="" />
-              <span>2%</span>
+            <div className="icons-note">
+              <img src={arrowImg} alt="" />
+              <span>3%</span>
             </div>
           </div>
         </div>
@@ -48,11 +48,11 @@ const SecondCard = () => {
             <span>Likes</span>
             <h3>5562</h3>
           </div>
-          <div className="card-inter">
+          <div className="card-center">
             <div className="icons">
               <img src={IgImg} alt="" />
             </div>
-            <div className="icons-note ">
+            <div className="icons-note">
               <img src={arrowImg} alt="" />
               <span>2257%</span>
             </div>
@@ -63,11 +63,11 @@ const SecondCard = () => {
             <span>Profile Views</span>
             <h3>52k</h3>
           </div>
-          <div className="card-inter">
+          <div className="card-center">
             <div className="icons">
               <img src={IgImg} alt="" />
             </div>
-            <div className="icons-note ">
+            <div className="icons-note">
               <img src={arrowImg} alt="" />
               <span>1375%</span>
             </div>
@@ -78,13 +78,13 @@ const SecondCard = () => {
             <span>Retweets</span>
             <h3>117</h3>
           </div>
-          <div className="card-inter">
+          <div className="card-center">
             <div className="icons">
               <img src={twitterImg} alt="" />
             </div>
-            <div className="icons-note ">
+            <div className="icons-note">
               <img src={arrowImg} alt="" />
-              <span>303%</span>
+              <span>3%</span>
             </div>
           </div>
         </div>
@@ -93,11 +93,11 @@ const SecondCard = () => {
             <span>Retweets</span>
             <h3>507</h3>
           </div>
-          <div className="card-inter">
+          <div className="card-center">
             <div className="icons">
               <img src={twitterImg} alt="" />
             </div>
-            <div className="icons-note ">
+            <div className="icons-note">
               <img src={arrowImg} alt="" />
               <span>553%</span>
             </div>
@@ -108,28 +108,28 @@ const SecondCard = () => {
             <span>Likes</span>
             <h3>107</h3>
           </div>
-          <div className="card-inter">
+          <div className="card-center">
             <div className="icons">
               <img src={youtubeImg} alt="" />
             </div>
-            <div className="icons-note icon-red ">
+            <div className="icons-note icon-red">
               <img src={arrdownImg} alt="" />
               <span>19%</span>
             </div>
           </div>
         </div>
-        <div className="cards card-items-7">
+        <div className="cards card-items-8">
           <div className="card-inter">
-            <span>Likes</span>
-            <h3>107</h3>
+            <span>Total Views</span>
+            <h3>1407</h3>
           </div>
-          <div className="card-inter">
+          <div className="card-center">
             <div className="icons">
               <img src={youtubeImg} alt="" />
             </div>
-            <div className="icons-note icon-red ">
+            <div className="icons-note icon-red">
               <img src={arrdownImg} alt="" />
-              <span>19%</span>
+              <span>12%</span>
             </div>
           </div>
         </div>

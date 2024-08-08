@@ -14,15 +14,8 @@
   padding: 1rem;
   margin-top: 1rem;
   border-radius: 5px;
-  outline: 1px solid red;
 
   /* flex-direction: column; */
-}
-
-.cards-content {
-  display: flex;
-  align-items: center;
-  gap: 10rem;
 }
 
 /* Card inter styles */
@@ -33,8 +26,17 @@
 
 .card-inter {
   display: flex;
-  gap: 55px;
   flex-direction: column;
+  align-self: flex-start;
+  gap: 55px;
+}
+
+.card-center {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
 }
 
 .card-inter h3 {
@@ -47,7 +49,6 @@
 
 .icons-note {
   display: flex;
-  align-items: center;
 }
 
 .icons-note img {

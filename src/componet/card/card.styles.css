@@ -14,6 +14,10 @@
   margin-top: 1rem;
 }
 
+.social-media-dashboard p {
+  color: hsl(228, 12%, 44%);
+}
+
 .dash-check {
   display: flex;
   align-items: center;
@@ -22,7 +26,7 @@
 }
 
 .check-box-p p {
-  color: #464444;
+  color: hsl(228, 12%, 44%);
 }
 
 .switch {
@@ -108,6 +112,10 @@ input:checked + .slider:before {
 }
 
 .icons-wrap p {
+  color: hsl(228, 12%, 44%);
+}
+
+.icons-wrap p {
   font-size: 13px;
 }
 
@@ -167,14 +175,14 @@ input:checked + .slider:before {
     display: none;
   }
 
+  .dash-check {
+    gap: 10px;
+  }
+
   .card-item {
     /* display: flex; */
     flex-direction: row;
     gap: 1rem;
     /* flex-wrap: wrap; */
-  }
-
-  .card-content-1 {
-    /* outline: 1px solid red; */
   }
 }
