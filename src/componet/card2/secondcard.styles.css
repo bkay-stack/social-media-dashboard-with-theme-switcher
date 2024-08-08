@@ -10,18 +10,31 @@
   background-color: hsl(225, 100%, 98%);
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  align-items: center;
+  padding: 1rem;
   margin-top: 1rem;
   border-radius: 5px;
+  outline: 1px solid red;
 
   /* flex-direction: column; */
+}
+
+.cards-content {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+/* Card inter styles */
+
+.icons img {
+  width: 18px;
 }
 
 .card-inter {
   display: flex;
   gap: 55px;
   flex-direction: column;
-  text-align: left;
 }
 
 .card-inter h3 {
@@ -32,29 +45,39 @@
   color: hsl(229, 9%, 47%);
 }
 
-.icon-wrap {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon-wrapp-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.icons {
+.icons-note {
   display: flex;
   align-items: center;
 }
 
-.icons span {
+.icons-note img {
+  object-fit: contain;
+}
+
+/* Utility color */
+
+.icons-note span {
   color: hsl(163, 72%, 41%);
   font-size: 14px;
 }
 
+.icon-red span {
+  color: hsl(356, 69%, 56%);
+  font-size: 14px;
+}
+
 @media (min-width: 650px) {
+  .cards-main-wrap {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    gap: 1rem;
+  }
+
+  .card {
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    padding: 2rem;
+  }
 }

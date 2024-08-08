@@ -13,79 +13,123 @@ const SecondCard = () => {
         <h3>Overview - Today</h3>
       </div>
       <div className="cards-main-wrap">
-        <div className="card-content">
-          <div className="cards card-items-1">
-            <div className="card-inter">
-              <span>Page Views</span>
-              <h3>87</h3>
+        <div className="cards card-items-1">
+          <div className="card-inter">
+            <span>Page Views</span>
+            <h3>87</h3>
+          </div>
+          <div className="card-inter">
+            <div className="icons">
+              <img src={fbImg} alt="" />
             </div>
-            <div className="card-inter">
-              <div className="icons-wrapper">
-                <img src={fbImg} alt="" />
-              </div>
-              <div className="icons-note icon-wrapp-main">
-                <div className="icons">
-                  <img src={arrowImg} alt="" />
-                  <span>3%</span>
-                </div>
-              </div>
+            <div className="icons-note">
+              <img src={arrowImg} alt="" />
+              <span>3%</span>
             </div>
           </div>
         </div>
-        <div className="card-content">
-          <div className="cards card-items-1">
-            <div className="card-inter">
-              <span>Page Views</span>
-              <h3>87</h3>
+        <div className="cards card-items-2">
+          <div className="card-inter">
+            <span>Likes</span>
+            <h3>52</h3>
+          </div>
+          <div className="card-inter">
+            <div className="icons">
+              <img src={fbImg} alt="" />
             </div>
-            <div className="card-inter">
-              <div className="icons-wrapper">
-                <img src={fbImg} alt="" />
-              </div>
-              <div className="icons-note icon-wrapp-main">
-                <div className="icons">
-                  <img src={arrowImg} alt="" />
-                  <span>3%</span>
-                </div>
-              </div>
+            <div className="icons-note icon-red">
+              <img src={arrdownImg} alt="" />
+              <span>2%</span>
             </div>
           </div>
         </div>
-        <div className="card-content">
-          <div className="cards card-items-1">
-            <div className="card-inter">
-              <span>Page Views</span>
-              <h3>87</h3>
+        <div className="cards card-items-3">
+          <div className="card-inter">
+            <span>Likes</span>
+            <h3>5562</h3>
+          </div>
+          <div className="card-inter">
+            <div className="icons">
+              <img src={IgImg} alt="" />
             </div>
-            <div className="card-inter">
-              <div className="icons-wrapper">
-                <img src={fbImg} alt="" />
-              </div>
-              <div className="icons-note icon-wrapp-main">
-                <div className="icons">
-                  <img src={arrowImg} alt="" />
-                  <span>3%</span>
-                </div>
-              </div>
+            <div className="icons-note ">
+              <img src={arrowImg} alt="" />
+              <span>2257%</span>
             </div>
           </div>
         </div>
-        <div className="card-content">
-          <div className="cards card-items-1">
-            <div className="card-inter">
-              <span>Page Views</span>
-              <h3>87</h3>
+        <div className="cards card-items-4">
+          <div className="card-inter">
+            <span>Profile Views</span>
+            <h3>52k</h3>
+          </div>
+          <div className="card-inter">
+            <div className="icons">
+              <img src={IgImg} alt="" />
             </div>
-            <div className="card-inter">
-              <div className="icons-wrapper">
-                <img src={fbImg} alt="" />
-              </div>
-              <div className="icons-note icon-wrapp-main">
-                <div className="icons">
-                  <img src={arrowImg} alt="" />
-                  <span>3%</span>
-                </div>
-              </div>
+            <div className="icons-note ">
+              <img src={arrowImg} alt="" />
+              <span>1375%</span>
+            </div>
+          </div>
+        </div>
+        <div className="cards card-items-5">
+          <div className="card-inter">
+            <span>Retweets</span>
+            <h3>117</h3>
+          </div>
+          <div className="card-inter">
+            <div className="icons">
+              <img src={twitterImg} alt="" />
+            </div>
+            <div className="icons-note ">
+              <img src={arrowImg} alt="" />
+              <span>303%</span>
+            </div>
+          </div>
+        </div>
+        <div className="cards card-items-6">
+          <div className="card-inter">
+            <span>Retweets</span>
+            <h3>507</h3>
+          </div>
+          <div className="card-inter">
+            <div className="icons">
+              <img src={twitterImg} alt="" />
+            </div>
+            <div className="icons-note ">
+              <img src={arrowImg} alt="" />
+              <span>553%</span>
+            </div>
+          </div>
+        </div>
+        <div className="cards card-items-7">
+          <div className="card-inter">
+            <span>Likes</span>
+            <h3>107</h3>
+          </div>
+          <div className="card-inter">
+            <div className="icons">
+              <img src={youtubeImg} alt="" />
+            </div>
+            <div className="icons-note icon-red ">
+              <img src={arrdownImg} alt="" />
+              <span>19%</span>
+            </div>
+          </div>
+        </div>
+        <div className="cards card-items-7">
+          <div className="card-inter">
+            <span>Likes</span>
+            <h3>107</h3>
+          </div>
+          <div className="card-inter">
+            <div className="icons">
+              <img src={youtubeImg} alt="" />
+            </div>
+            <div className="icons-note icon-red ">
+              <img src={arrdownImg} alt="" />
+              <span>19%</span>
             </div>
           </div>
         </div>
