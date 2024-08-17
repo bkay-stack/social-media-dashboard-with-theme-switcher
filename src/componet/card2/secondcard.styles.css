@@ -22,6 +22,11 @@
   /* flex-direction: column; */
 }
 
+.cards:hover {
+  cursor: pointer;
+  background-color: var(--hover);
+}
+
 /* Card inter styles */
 
 .icons img {
