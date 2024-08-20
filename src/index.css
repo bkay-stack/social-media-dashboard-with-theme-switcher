@@ -48,13 +48,17 @@
   --color-card-bg: hsl(228, 28%, 20%);
   --color-text-desaturated-blue: hsl(228, 34%, 66%);
   --color-text: hsl(0, 0%, 100%);
-  --hover: hsl(0, 8%, 59%);
+  --hover: hsl(240, 7%, 33%);
 }
 
 body {
   font-weight: 400;
   font-size: 18px;
   height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 image {
